@@ -25,7 +25,7 @@ def kanji(message):
             full_message = full_message[:-2]
             bot.send_message(message.chat.id, full_message)
 
-bot.infinity_polling()
+# bot.infinity_polling()
 
 
 # @bot.message_handler(commands=['meaning'])
